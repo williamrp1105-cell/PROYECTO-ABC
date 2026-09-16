@@ -1,0 +1,113 @@
+:root{--blue:#171079;--blue2:#100950;--gold:#f2b500;--bg:#f5f6fa;--text:#252638;--muted:#777b8e;--border:#e6e7ef;--green:#159957;--red:#d64545;--white:#fff;--shadow:0 8px 24px rgba(20,16,80,.07)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif}.app{min-height:100vh;display:flex}.sidebar{position:fixed;inset:0 auto 0 0;width:250px;background:var(--blue2);color:#fff;padding:20px 14px;display:flex;flex-direction:column}.brand{display:flex;gap:11px;align-items:center;padding:5px 8px 23px;border-bottom:1px solid rgba(255,255,255,.12)}.brand-mark{background:#fff;color:var(--blue);font-weight:900;font-size:20px;border-radius:8px;padding:9px 7px}.brand strong{display:block}.brand small{color:#c8c6dc}.nav{width:100%;border:0;background:transparent;color:#d7d5e5;text-align:left;padding:10px 12px;border-radius:9px;margin:3px 0;cursor:pointer;font-weight:600}.nav i{width:22px;margin-right:8px}.nav:hover,.nav.active{background:#fff;color:var(--blue2)}nav{margin-top:18px}.side-note{margin-top:auto;color:#aaa7c1;font-size:10px;text-align:center}.main{margin-left:250px;width:calc(100% - 250px);padding:0 30px 45px}.topbar{height:88px;display:flex;align-items:center;justify-content:space-between}.eyebrow{color:var(--blue);font-size:10px;font-weight:800;letter-spacing:1.4px}.topbar h1{margin:3px 0;font-size:24px}.top-actions{display:flex;gap:10px;align-items:center}.period,.ghost{background:#fff;border:1px solid var(--border);border-radius:10px;padding:9px 13px;color:var(--muted);font-size:12px}.ghost{cursor:pointer}.section{display:none}.section.active{display:block}.hero{background:linear-gradient(110deg,var(--blue2),#292080);color:#fff;padding:31px 35px;border-radius:17px;display:flex;justify-content:space-between;align-items:center}.tag{color:var(--gold);font-size:9px;font-weight:900;letter-spacing:1.2px}.hero h2{font-size:28px;margin:10px 0 8px;max-width:760px}.hero p{color:#dddaf0;max-width:760px}.hero-number{font-size:90px;font-weight:900;color:rgba(255,255,255,.12)}.btn{border:0;background:var(--gold);color:var(--blue2);font-weight:800;padding:11px 15px;border-radius:9px;cursor:pointer}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:18px 0}.stat{background:#fff;border:1px solid var(--border);padding:18px;border-radius:13px;box-shadow:var(--shadow)}.stat span,.stat small{display:block;color:var(--muted);font-size:11px}.stat b{font-size:21px}.grid2{display:grid;grid-template-columns:1.15fr .85fr;gap:17px;margin-bottom:17px}.card{background:#fff;border:1px solid var(--border);border-radius:13px;padding:20px;box-shadow:var(--shadow);margin-bottom:17px}.card h3{margin:0 0 5px}.muted,.heading p{color:var(--muted);font-size:12px}.steps{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:22px}.steps span{background:#f2f1fb;border-radius:8px;padding:9px;font-size:11px;font-weight:700}.steps i{color:var(--blue)}.heading{margin:8px 0 18px}.heading h2{margin:0 0 5px}.form-card{padding:18px}.form-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;align-items:end}.form-grid label,.toolbar label{display:flex;flex-direction:column;gap:6px;font-size:11px;font-weight:700;color:var(--muted)}input,select{width:100%;border:1px solid var(--border);border-radius:8px;padding:10px;background:#fff;color:var(--text);outline:none}input:focus,select:focus{border-color:var(--blue)}table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;padding:11px;border-bottom:1px solid var(--border);vertical-align:middle}th{font-size:10px;text-transform:uppercase;color:var(--muted)}tr:last-child td{border-bottom:0}.strong{font-weight:800}.icon{border:0;background:transparent;cursor:pointer;padding:7px;border-radius:7px}.icon.danger{color:var(--red)}.flow-list{display:grid;gap:10px}.flow-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:13px 15px;display:flex;align-items:center;gap:14px;box-shadow:var(--shadow)}.flow-index{width:32px;height:32px;background:var(--blue);color:#fff;border-radius:50%;display:grid;place-items:center;font-weight:800}.flow-card>div:nth-child(2){flex:1}.flow-card span{display:block;color:var(--muted);font-size:11px;margin-top:4px}.flow-card .icon{margin-left:auto}.formula{background:var(--blue2);color:#fff;border-radius:13px;padding:21px;margin-bottom:17px;display:flex;justify-content:center;align-items:center;gap:14px;font-size:15px;flex-wrap:wrap}.formula strong{color:var(--gold);font-size:22px}.note{padding:14px 16px;background:#fff5d6;border-left:4px solid var(--gold);border-radius:8px;font-size:12px;margin-bottom:17px}.empty{padding:28px;text-align:center;color:var(--muted);background:#fafafd;border:1px dashed var(--border)}.pool-card{background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);margin-bottom:17px;overflow:hidden}.pool-head{padding:17px 20px;background:#faf9ff;display:flex;justify-content:space-between;align-items:center}.pool-head h3{margin:0}.pool-head span{font-size:11px;color:var(--muted)}.pool-section{padding:17px 20px;border-top:1px solid var(--border)}.pool-section h4{margin:0 0 10px;font-size:13px}.check-row{display:grid;grid-template-columns:25px 1fr 130px 20px;gap:8px;align-items:center;padding:10px 0;border-bottom:1px solid #f0f0f5;font-size:12px}.check-row:last-child{border-bottom:0}.check-row input[type=checkbox]{width:17px;height:17px}.check-row span{display:flex;flex-direction:column;gap:3px}.check-row small{font-size:10px;color:var(--muted);font-weight:400}.hours{padding:7px}.check-row em{font-size:10px;color:var(--muted)}.mini-empty{color:var(--muted);font-size:11px;padding:8px 0}.toolbar{display:flex;gap:16px;align-items:end;justify-content:space-between}.toolbar label{min-width:220px}.totals{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.totals b{color:var(--text)}.summary-card{display:inline-flex;flex-direction:column;background:#fff;border:1px solid var(--border);border-radius:11px;padding:14px 17px;margin:0 10px 17px 0;min-width:190px;box-shadow:var(--shadow)}.summary-card span{font-size:11px;color:var(--muted)}.summary-card b{font-size:18px}.summary-card small{font-size:10px;color:var(--green)}.total-box{background:var(--blue2);color:#fff;padding:22px;border-radius:13px;display:flex;justify-content:space-between;align-items:center}.total-box strong{color:var(--gold);font-size:25px}@media(max-width:1050px){.sidebar{width:210px}.main{margin-left:210px;width:calc(100% - 210px);padding:0 17px}.stats{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}.form-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.app{display:block}.sidebar{position:static;width:100%;height:auto}.main{margin:0;width:100%;padding:0 12px 30px}.side-note{display:none}.topbar{height:auto;padding:17px 0}.period{display:none}.hero-number{display:none}.stats,.form-grid{grid-template-columns:1fr}.steps{overflow:auto;flex-wrap:nowrap}.toolbar{display:block}.toolbar label{margin-bottom:10px}.check-row{grid-template-columns:25px 1fr 95px 15px}table{min-width:800px}.card{overflow:auto}}
+.ai-card{border-left:4px solid var(--blue)}.ai-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.ai-head h3{margin:0 0 5px}.ai-head p{margin:0;max-width:760px}.ai-status{font-size:11px;color:var(--muted);margin-top:14px}.ai-status.loading{color:var(--blue);font-weight:700}.ai-status.error{color:var(--red);font-weight:700}.ai-result{margin-top:12px;padding:16px;border:1px solid var(--border);border-radius:10px;background:#fafafd;line-height:1.65;font-size:12px}.ai-result h1,.ai-result h2,.ai-result h3{font-size:14px;margin:12px 0 5px}.ai-result ul{margin:6px 0 10px;padding-left:20px}.ai-result p{margin:6px 0}.ai-result strong{font-weight:800}@media(max-width:700px){.ai-head{display:block}.ai-head .btn{margin-top:12px}}
+
+
+/* Importación de flujograma PDF: extensión del apartado 1, sin alterar el resto de la interfaz. */
+.full-field{grid-column:1/-1}.full-field textarea{width:100%;resize:vertical}.pdf-import-card{margin-top:14px}.pdf-import-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.pdf-import-head h3{margin:0 0 5px}.pdf-import-head p{margin:0}.pdf-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.btn.secondary{background:var(--white);color:var(--upb-blue);border:1px solid var(--upb-blue)}.pdf-status{font-size:11px;color:var(--muted);margin-top:12px}.pdf-files{margin-top:14px}.pdf-file-item{display:flex;align-items:center;gap:10px;border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:#fafafd}.pdf-file-icon{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--red);background:var(--red-light);font-size:16px}.pdf-file-info{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0}.pdf-file-info b{font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.pdf-file-info small{font-size:10px;color:var(--muted)}.pdf-status.loading{color:var(--upb-blue);font-weight:700}.pdf-status.success{color:var(--green);font-weight:700}.pdf-status.error{color:var(--red);font-weight:700}.pdf-preview-title{display:flex;justify-content:space-between;align-items:center;margin:16px 0 8px;font-size:12px}.pdf-preview-title span{color:var(--muted);font-size:11px}.table-scroll{overflow:auto}.pdf-edit{width:100%;box-sizing:border-box;border:1px solid var(--border);border-radius:6px;padding:7px;font:inherit;font-size:11px;background:#fff}.pdf-edit.order{min-width:65px}.pdf-preview-actions{display:flex;gap:10px;align-items:center;margin-top:12px}.flow-description{display:block;color:var(--muted);margin-top:5px;line-height:1.45}.flow-description i{margin-right:4px}@media(max-width:800px){.pdf-import-head{display:block}.pdf-actions{margin-top:12px}.full-field{grid-column:auto}}
+
+/* Selector PDF: se usa un label nativo para garantizar que el dialogo de archivos se abra correctamente. */
+.pdf-file-input{display:none}
+.pdf-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.pdf-actions .btn{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px}
+.pdf-actions .secondary{background:var(--white);color:var(--upb-blue);border:1px solid var(--upb-blue)}
+.pdf-actions .secondary:disabled{opacity:.5;cursor:not-allowed}
+.pdf-actions .btn:focus{outline:2px solid var(--upb-gold);outline-offset:2px}
+
+/* Ajuste final del importador PDF: mantiene la estética del sistema y usa un único botón. */
+.pdf-import-card .pdf-import-head{align-items:flex-end}
+.pdf-import-card .pdf-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin-top:0}
+.pdf-import-card .pdf-actions .btn{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+.pdf-file-input{position:absolute!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important;overflow:hidden!important}
+.pdf-files{width:100%}
+.pdf-file-item{min-height:44px;box-sizing:border-box}
+@media(max-width:800px){.pdf-import-card .pdf-import-head{align-items:stretch}.pdf-import-card .pdf-actions{justify-content:flex-start;margin-top:12px}}
+
+/* Importador PDF: único botón visible y selector nativo completamente oculto. */
+.pdf-import-card .pdf-import-head{display:block;align-items:initial}
+.pdf-import-card .pdf-actions{display:flex;align-items:center;justify-content:flex-start;gap:8px;margin-top:14px}
+.pdf-import-card .pdf-actions .btn{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+.pdf-import-card .pdf-file-input{position:fixed!important;left:-10000px!important;top:auto!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.pdf-import-card .pdf-files{width:100%;margin-top:14px}
+.pdf-import-card .pdf-file-item{min-height:50px;box-sizing:border-box}
+.pdf-import-card .pdf-status{margin-top:12px}
+@media(max-width:800px){.pdf-import-card .pdf-actions{justify-content:flex-start;margin-top:12px}}
+
+/* Corrección del importador PDF: input nativo oculto, botones alineados y selector controlado por JS. */
+.pdf-file-input{display:none!important}
+.pdf-import-card .pdf-actions{display:flex;align-items:center;justify-content:flex-start;gap:8px;margin-top:14px;flex-wrap:wrap}
+.pdf-import-card .pdf-actions .btn{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+.pdf-import-card .pdf-actions .secondary{background:var(--white);color:var(--upb-blue);border:1px solid var(--upb-blue)}
+.pdf-import-card .pdf-actions .secondary:disabled{opacity:.5;cursor:not-allowed}
+.pdf-file-item{width:100%;box-sizing:border-box}
+
+/* Botón de carga PDF: el label abre el selector nativo sin mostrar "Choose File". */
+.pdf-upload-btn{cursor:pointer;min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+
+.dashboard-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin:20px 0 12px}.dashboard-heading h3{margin:0 0 4px;font-size:16px}.dashboard-heading p{margin:0}.dashboard-heading label{display:flex;flex-direction:column;gap:6px;font-size:11px;font-weight:700;color:var(--muted);min-width:190px}.dashboard-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px;margin-bottom:17px}.dashboard-card{min-height:330px}.dashboard-card canvas{width:100%!important;height:260px!important}.dashboard-card.dashboard-wide{grid-column:1/-1}.dashboard-card-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}.dashboard-card-head h3{margin:0 0 3px;font-size:14px}.dashboard-card-head span{font-size:10px;color:var(--muted)}@media(max-width:900px){.dashboard-grid{grid-template-columns:1fr}.dashboard-card.dashboard-wide{grid-column:auto}.dashboard-heading{display:block}.dashboard-heading label{margin-top:10px;min-width:0}}
+
+.home-production-card canvas,.home-surplus-card canvas{width:100%!important;height:280px!important}.surplus-summary{margin-top:10px;padding-top:10px;border-top:1px solid var(--border);font-size:12px;color:var(--muted)}.surplus-summary b{color:var(--text);font-size:16px}
+
+.pool-head-actions{display:flex;align-items:center;gap:4px;margin-left:16px}.pool-toggle{color:var(--blue);font-size:15px}.pool-toggle:hover{background:var(--blue-light,#e9e8f8)}.pool-details{border-top:1px solid var(--border)}.pool-toolbar{justify-content:flex-start}.pool-toolbar .muted{margin-left:4px;padding-bottom:9px}@media(max-width:700px){.pool-toolbar .muted{display:block;padding-bottom:0}}
+
+.material-highlight td{background:#e8f1fb}.material-highlight td:first-child{color:var(--blue);font-weight:900}.table-scroll{overflow:auto}
+
+/* Mano de Obra Directa */
+#laborTable .material-highlight td{font-weight:700}
+#laborTable td,#laborTable th{white-space:nowrap}
+
+.material-consumption-card{margin-top:18px}.material-consumption-table thead tr:first-child th{background:#6f2da8;color:#fff;font-weight:800;text-align:center}.material-consumption-table thead tr:nth-child(2) th{background:#fff;color:var(--text);font-weight:800}.material-consumption-total td{background:#6f2da8!important;color:#fff!important;font-weight:800}.material-consumption-table td,.material-consumption-table th{text-align:center}.material-consumption-table td:first-child,.material-consumption-table th:first-child{text-align:left}
+
+
+/* Presupuestos */
+.budget-table th,.budget-table td{white-space:nowrap;text-align:center}.budget-table th:first-child,.budget-table td:first-child{text-align:left;min-width:310px}.budget-highlight td{background:#f0f0ff;font-weight:800}.budget-highlight2 td{background:#f6e8ff;font-weight:800}.budget-total td{background:#ef8af0;font-weight:900}.budget-detail{display:flex;flex-direction:column;gap:10px}.budget-detail-row{display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;padding:12px 14px;border:1px solid var(--border);border-radius:10px;background:var(--white)}.budget-detail-row span{display:block;color:var(--muted);font-size:12px;margin-top:4px}.budget-detail-row strong{font-size:17px}.budget-detail-row small{color:var(--muted)}@media(max-width:800px){.budget-detail-row{grid-template-columns:1fr}.budget-table th:first-child,.budget-table td:first-child{min-width:260px}}
+
+.expense-budget-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.expense-budget-head h3{margin:0}.expense-budget-head span{display:block;color:var(--muted);font-size:11px;margin-top:3px}.expense-add-card{background:#faf9ff;border:1px solid var(--border);box-shadow:none}.expense-line-grid{grid-template-columns:1.3fr 180px repeat(3,1fr) auto}.expense-method,.expense-source{display:block;color:var(--muted);font-size:9px;font-weight:400;margin-top:3px}.expense-table td,.expense-table th{white-space:nowrap}.expense-table tfoot td{border-top:1px solid var(--border)}@media(max-width:1050px){.expense-line-grid{grid-template-columns:1fr 1fr}.expense-line-grid label:nth-child(n+3){grid-column:auto}}
+
+.final-params-grid{grid-template-columns:1fr 1fr auto}.final-table th,.final-table td{white-space:nowrap;text-align:center}.final-table th:first-child,.final-table td:first-child{min-width:330px;text-align:left}@media(max-width:900px){.final-params-grid{grid-template-columns:1fr}.final-table{font-size:12px}}
+
+.row-actions{display:flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap}.edit-month-btn{padding:7px 12px;font-size:12px;min-height:34px}.row-actions .icon{width:34px;height:34px}
+
+/* V30 - encabezado de Presupuestos correctamente estructurado */
+#budgetHeadRow th{vertical-align:middle;text-align:center;white-space:nowrap}
+#budgetHeadRow th:first-child{text-align:left}
+.budget-table thead th{border-bottom:1px solid var(--border)}
+
+/* V32 - presentación de presupuestos de gastos inspirada en el formato de referencia */
+.expense-reference-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:14px;margin:0 0 14px}
+.expense-reference-card{border:1px solid var(--border);background:#faf9ff;border-radius:10px;padding:14px}
+.expense-reference-card h4{margin:0 0 5px;font-size:12px;color:var(--text)}
+.expense-reference-card>p{margin:0 0 10px;font-size:10px;color:var(--muted)}
+.expense-info-list{font-size:11px;line-height:1.8}
+.expense-info-list span{float:right;color:var(--muted);font-size:9px}
+.expense-fixed-reference{margin-bottom:14px}
+.mini-expense-table{width:100%;border-collapse:collapse;font-size:10px}
+.mini-expense-table th,.mini-expense-table td{padding:6px 7px;border:1px solid var(--border);white-space:nowrap;text-align:right}
+.mini-expense-table th:first-child,.mini-expense-table td:first-child{text-align:left}
+.mini-expense-table thead th{background:#f1f0fa;font-weight:800}
+.expense-month-block{margin-top:18px}
+.expense-month-block h4{margin:0 0 8px;color:#f00;font-size:14px}
+.expense-month-block h4 span{font-weight:700}
+.expense-month-table{width:100%;border-collapse:collapse;font-size:11px}
+.expense-month-table th,.expense-month-table td{padding:7px 9px;border:1px solid var(--border);white-space:nowrap}
+.expense-month-table th{text-align:center;background:#fafafa;font-weight:800}
+.expense-month-table td:not(:first-child){text-align:right}
+.expense-month-table td:first-child{min-width:300px}
+.expense-month-table tfoot td{font-weight:800;border-top:2px solid var(--border)}
+.expense-grand-total{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:16px;padding:12px 14px;border-radius:8px;background:#f0f0ff;font-size:11px}
+.expense-grand-total span{font-weight:900;margin-right:auto}
+.expense-grand-total strong{font-size:14px}
+@media(max-width:950px){.expense-reference-grid{grid-template-columns:1fr}.expense-month-table td:first-child{min-width:230px}.expense-grand-total{display:grid;grid-template-columns:1fr 1fr}}
+
+/* V33 - encabezados Estado de Ingresos y Presupuesto de Caja */
+#incomeHeadRow th,#cashHeadRow th{vertical-align:middle;text-align:center;white-space:nowrap}
+#incomeHeadRow th:first-child,#cashHeadRow th:first-child{text-align:left}
+
+/* Flujo de Caja V35: jerarquía de conceptos del Excel */
+.flowcash-table .flow-highlight td{font-weight:700;background:var(--upb-blue-light);}
+.flowcash-table .flow-sub td:first-child{padding-left:34px;font-size:.94em;}
+.flowcash-table .flow-section td{font-weight:800;background:var(--upb-blue);color:#fff;text-align:left;}
+
+/* V36 - Captura previa y cálculo del Flujo de Caja */
+.flowcash-help{margin:4px 0 14px}.flow-input-table td,.flow-input-table th,.flowcash-table td,.flowcash-table th{vertical-align:middle}.flow-inline-input{width:150px;min-width:120px;box-sizing:border-box;padding:9px 10px;border:1px solid var(--border);border-radius:8px;background:#fff;color:var(--text);font:inherit}.flowcash-finance-grid{grid-template-columns:1fr 1fr 1fr auto}.flowcash-asset-grid{grid-template-columns:1.2fr 1fr 1fr 1fr 1.1fr auto}.flowcash-deferred-grid{grid-template-columns:1fr 1fr auto}.flowcash-mini-summary{margin-top:12px;padding:11px 14px;border-radius:9px;background:var(--upb-blue-light);color:var(--text);font-size:12px}.flowcash-table .flow-highlight td{font-weight:800;background:var(--upb-blue-light)}.flowcash-table .flow-sub td:first-child{padding-left:32px}.flowcash-table .flow-section td{font-weight:800;background:var(--upb-blue);color:#fff;text-align:left}.flowcash-table td,.flowcash-table th{white-space:nowrap}.flowcash-table td:first-child,.flowcash-table th:first-child{min-width:280px;text-align:left}.flowcash-table .row-actions{justify-content:center}@media(max-width:1050px){.flowcash-finance-grid,.flowcash-asset-grid,.flowcash-deferred-grid{grid-template-columns:1fr 1fr}.flowcash-finance-grid .btn,.flowcash-asset-grid .btn,.flowcash-deferred-grid .btn{grid-column:1/-1}}@media(max-width:700px){.flowcash-finance-grid,.flowcash-asset-grid,.flowcash-deferred-grid{grid-template-columns:1fr}.flowcash-asset-grid .btn,.flowcash-deferred-grid .btn{grid-column:auto}.flow-inline-input{width:120px}}
+
+.flowcash-van-grid{grid-template-columns:1fr auto}.flowcash-van-result{margin:16px 0;padding:16px 18px;border-radius:10px;background:var(--upb-blue-light);border:1px solid var(--border)}.flowcash-van-result div{display:flex;align-items:center;justify-content:space-between;gap:18px}.flowcash-van-result div span{font-weight:700}.flowcash-van-result div b{font-size:24px}.flowcash-van-result small{display:block;margin-top:6px;color:var(--muted)}@media(max-width:700px){.flowcash-van-grid{grid-template-columns:1fr}}
