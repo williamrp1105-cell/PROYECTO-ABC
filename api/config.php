@@ -1,4 +1,11 @@
-<?php
+-<?php
+// Configuración de la Base de Datos (Aiven MySQL)
+$DB_HOST = 'mysql-cd0d9bd-williamrp1105-bc41.l.aivencloud.com';
+$DB_PORT = '19018';
+$DB_USER = 'avnadmin';
+$DB_PASSWORD = getenv('DB_PASSWORD') ?: 'PASSWORDACA';
+$DB_NAME = 'defaultdb';
+
 // Configuración local de Gemini.
 $GEMINI_API_KEY = 'TU_API_ACA';
 $GEMINI_MODEL = 'gemini-3.5-flash-lite';
